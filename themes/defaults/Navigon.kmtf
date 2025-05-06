@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GARMIN_MAP_THEME>
+  <METADATA>
+    <TITLE>Navigon</TITLE>
+    <DESCRIPTION>Theme for Deutschland (Germany).</DESCRIPTION>
+    <LOCALELIST>
+      <locale>Deutschland</locale>
+    </LOCALELIST>
+    <Version><Major>1</Major><Minor>00</Minor></Version>
+  </METADATA>
+
+  <PRESENTATION ID="Guidance">
+
+    <STYLELIST>
+
+      <STYLE field = "MAP_BEACH_CLR" >
+        <COLOR >
+          <PRIMARY      day = "#D3CEA9" night = "#514B29" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_BUILDING_CLR" >
+        <COLOR >
+          <PRIMARY      day = "#8E8C76" night = "#333333" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_BUILDING_SHADOW_CLR" >
+        <COLOR >
+          <PRIMARY      day = "#706D59" night = "#141414" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_EXTRD_AREA_CLR" >
+        <COLOR >
+          <PRIMARY      day = "#8E8C76" night = "#333333" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_GLACIER_CLR" >
+        <COLOR >
+          <PRIMARY      day = "#DAEEEF" night = "#677F7F" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_LAND_CLR" >
+        <COLOR >
+          <PRIMARY      day = "#C6BFA1" night = "#211F1D" />
+          <SECONDARY    day = "#C6BFA1" night = "#211F1D" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_MISC_AREA_CLR" >
+        <COLOR >
+          <PRIMARY      day = "#B7B195" night = "#26251F" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_MISC_RESTR_CLR" >
+        <COLOR >
+          <PRIMARY      day = "#808080" night = "#FFFFFF" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_MISC_OBSTR_CLR" >
+        <COLOR >
+          <PRIMARY      day = "#808080" night = "#FFFFFF" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_MISC_WATER_AREA_CLR" >
+        <COLOR >
+          <PRIMARY      day = "#5C9BCF" night = "#1B3544" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_PARK_CLR" >
+        <COLOR >
+          <PRIMARY      day = "#A5C894" night = "#2C3D32" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_RWY_HSRFC_CLR" >
+        <COLOR >
+          <PRIMARY      day = "#939393" night = "#303030" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_URBAN_LAND_CLR" >
+        <COLOR >
+          <PRIMARY      day = "#A3A18B" night = "#211F1D" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_WATER_CLR" >
+        <COLOR >
+          <PRIMARY      day = "#5C9BCF" night = "#1B3544" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_WETLAND_CLR" >
+        <COLOR >
+          <PRIMARY      day = "#7FB1B3" night = "#1F3F42" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_WOODS_CLR" >
+        <COLOR >
+          <PRIMARY      day = "#95B783" night = "#27352B" />
+        </COLOR>
+      </STYLE>
+	  
+	  <STYLE field = "MAP_RESERVATION_CLR" >
+        <COLOR >
+          <PRIMARY      day = "#D3CEA9" night = "#332F20" />
+        </COLOR>
+      </STYLE>
+
+	  <STYLE field = "MAP_TRANSPORTATION_LINE_CLR"  scale = ".10" >
+        <COLOR >
+          <PRIMARY      day = "#8E8E8E" night = "#353535" />
+          <SECONDARY    day = "#8E8E8E" night = "#353535" />
+        </COLOR>
+      </STYLE>
+	  
+      <STYLE field = "MAP_CNTR_MJR_CLR"  scale = "1.00"  border = "1.00" >
+        <COLOR >
+          <PRIMARY      day = "#000000" night = "#808080" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_CNTR_INT_CLR"  scale = "1.00"  border = "1.00" >
+        <COLOR >
+          <PRIMARY      day = "#000000" night = "#808080" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_CNTR_MNR_CLR"  scale = "1.00"  border = "1.00" >
+        <COLOR >
+          <PRIMARY      day = "#C0C0C0" night = "#C0C0C0" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_DPTH_CNTR_MJR_CLR"  scale = "1.00"  border = "1.00" >
+        <COLOR >
+          <PRIMARY      day = "#E0DDA4" night = "#808080" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_DPTH_CNTR_INT_CLR"  scale = "1.00"  border = "1.00" >
+        <COLOR >
+          <PRIMARY      day = "#000000" night = "#808080" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_DPTH_CNTR_MNR_CLR"  scale = "1.00"  border = "1.00" >
+        <COLOR >
+          <PRIMARY      day = "#800000" night = "#C0C0C0" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_GRID_LINE_CLR"  scale = "1.00"  border = "1.00" >
+        <COLOR >
+          <PRIMARY      day = "#C0C0C0" night = "#808080" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_MISC_LINE_CLR"  scale = "1.00"  border = "1.00" >
+        <COLOR >
+          <PRIMARY      day = "#FFFFFF" night = "#C0C0C0" />
+          <SECONDARY    day = "#808080" night = "#010101" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_MISC_WATER_LINE_CLR"  scale = "1.00"  border = "1.00" >
+        <COLOR >
+          <PRIMARY      day = "#4b84a0" night = "#335d7c" />
+          <SECONDARY    day = "#4b84a0" night = "#335d7c" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_PLTCL_INTL_CLR"  scale = ".50" >
+        <COLOR >
+          <PRIMARY      day = "#000000" night = "#FFFFFF" />
+          <SECONDARY    day = "#000000" night = "#FFFFFF" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_PLTCL_MJR_CLR"  scale = ".20" >
+        <COLOR >
+          <PRIMARY      day = "#000000" night = "#FFFFFF" />
+          <SECONDARY    day = "#000000" night = "#FFFFFF" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_PLTCL_MNR_CLR"  scale = ".10" >
+        <COLOR >
+          <PRIMARY      day = "#000000" night = "#FFFFFF" />
+          <SECONDARY    day = "#000000" night = "#FFFFFF" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_ROAD_ALLY_CLR"  scale = ".40" border = "0.10" >
+        <COLOR >
+          <PRIMARY      day = "#e2e2e2" night = "#515151" />
+          <SECONDARY    day = "#6B6B6B" night = "#515151" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_ROAD_ARTERIAL_CLR"  scale = ".60" >
+        <COLOR >
+          <PRIMARY      day = "#FFFDBB" night = "#938A55" />
+          <SECONDARY    day = "#7F7F7F" night = "#756B27" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_ROAD_COLLECTOR_CLR"  scale = ".70" >
+        <COLOR >
+          <PRIMARY      day = "#FFFDBB" night = "#938A55" />
+          <SECONDARY    day = "#7F7F7F" night = "#756B27" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_ROAD_DIM_CLR"  scale = "1.00"  border = "1.00" >
+        <COLOR >
+          <PRIMARY      day = "#DCDC00" night = "#3C3C59" />
+          <SECONDARY    day = "#DCDC00" night = "#3C3C59" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_ROAD_INTERSTATE_CLR"  scale = "1.10" >
+        <COLOR >
+          <PRIMARY      day = "#B7B7FF" night = "#6868c1" />
+          <SECONDARY    day = "#004080" night = "#115893" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_ROAD_SS_INTERSTATE_CLR"  scale = ".70" >
+        <COLOR >
+          <PRIMARY      day = "#B7B7FF" night = "#6868c1" />
+          <SECONDARY    day = "#004080" night = "#115893" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_ROAD_HWY_MJR_CLR"  scale = "1.05" >
+        <COLOR >
+          <PRIMARY      day = "#FFFF80" night = "#897C1B" />
+          <SECONDARY    day = "#525252" night = "#706A03" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_ROAD_HWY_MNR_CLR"  scale = ".90" >
+        <COLOR >
+          <PRIMARY      day = "#FFFF80" night = "#897C1B" />
+          <SECONDARY    day = "#525252" night = "#706A03" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_ROAD_RAILRD_CLR"  scale = "1.00"  border = "1.00" >
+        <COLOR >
+          <PRIMARY      day = "#B4BBC4" night = "#2d2d2d" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_ROAD_RESIDENTIAL_CLR"  scale = "0.70" border = "0.10">
+        <COLOR >
+          <PRIMARY      day = "#FFFFFF" night = "#606060" />
+          <SECONDARY    day = "#5E5E5E" night = "#606060" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_ROAD_RAMP_CLR"  scale = ".80" >
+        <COLOR >
+          <PRIMARY      day = "#FFFDE1" night = "#938C5F" />
+          <SECONDARY    day = "#9E9E9A" night = "#756922" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_ROAD_TRAIL_CLR"  scale = ".50" border = "0.10">
+        <COLOR >
+          <PRIMARY      day = "#e2e2e2" night = "#515151" />
+          <SECONDARY    day = "#6B6B6B" night = "#515151" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_ROAD_UNPAVED_CLR"  scale = ".15" >
+        <COLOR >
+          <PRIMARY      day = "#89745c" night = "#4C4136" />
+          <SECONDARY    day = "#89745c" night = "#4C4136" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_RTE_ACTV_LEG_CLR"  scale = "1.15" >
+        <COLOR >
+          <PRIMARY      day = "#FF8000" night = "#FF8000" />
+          <SECONDARY    day = "#C46200" night = "#C46200" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_RTE_ARRW_CLR"  scale = "1.00" >
+        <COLOR >
+          <PRIMARY      day = "#FFFFFF" night = "#010101" />
+          <SECONDARY    day = "#000000" night = "#FFFFFF" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_RTE_GPI_EMB_CLR"  scale = "0.60"  border = "1.00" >
+        <COLOR >
+          <PRIMARY      day = "#467814" night = "#78BE28" />
+          <SECONDARY    day = "#283C0A" night = "#283C0A" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_RTE_INACTV_LEG_CLR"  scale = "0.60"  border = "1.00" >
+        <COLOR >
+          <PRIMARY      day = "#FF8000" night = "#FF8000" />
+          <SECONDARY    day = "#C46200" night = "#C46200" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_TRK_CLR"  scale = "1.00" >
+        <COLOR >
+          <PRIMARY      day = "#06EEEE" night = "#06EEEE" />
+          <SECONDARY    day = "#06EEEE" night = "#06EEEE" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_TRK_SAVED_CLR"  scale = "0.60"  border = "1.00" >
+        <COLOR >
+          <PRIMARY      day = "#06EEEE" night = "#06EEEE" />
+          <SECONDARY    day = "#06EEEE" night = "#06EEEE" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_LEGEND_CLR"  scale = "1.00"  border = "1.00" >
+        <COLOR >
+          <PRIMARY      day = "#525052" night = "#FFFFFF" />
+          <SECONDARY    day = "#F0F0D2" night = "#000020" />
+        </COLOR>
+      </STYLE>
+
+      <STYLE field = "MAP_SCALE_LINE_CLR"  scale = "1.00"  border = "1.00" >
+        <COLOR >
+          <PRIMARY      day = "#000000" night = "#FFFFFF" />
+          <SECONDARY    day = "#F0F0D2" night = "#000020" />
+        </COLOR>
+      </STYLE>
+
+    </STYLELIST>
+
+  </PRESENTATION>
+
+</GARMIN_MAP_THEME>
+

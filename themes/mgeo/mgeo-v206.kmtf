@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GARMIN_MAP_THEME>
+  <METADATA>
+    <TITLE>mgeo-V2-06</TITLE>
+    <DESCRIPTION>MGEO's angepasste Farben und Strichbreiten für Garmin XT2 (V2)</DESCRIPTION>
+    <LOCALELIST>
+      <locale>Deutschland</locale>
+    </LOCALELIST>
+    <Version><Major>2</Major><Minor>06</Minor></Version>
+  </METADATA>
+
+  <PRESENTATION ID="Guidance">
+
+    <STYLELIST>
+
+      <STYLE field="MAP_BEACH_CLR">
+      <TRANSLATION>Strand</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#C1B58E" night="#33271E"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_BUILDING_CLR">
+      <TRANSLATION>Gebäude</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#B5B3AC" night="#2E2E2E"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_BUILDING_SHADOW_CLR">
+      <TRANSLATION>Gebäudeschatten</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#AAA9A3" night="#141414"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_EXTRD_AREA_CLR">
+      <TRANSLATION>Gebäude 3D</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#B5B3AC" night="#2E2E2E"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_GLACIER_CLR">
+      <TRANSLATION>Berge und Gletscher</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#C5D3DD" night="#042E3F"/>
+        </COLOR>
+      </STYLE>
+	  
+	  <STYLE field="MAP_RESERVATION_CLR">
+      <TRANSLATION>Naturschutzgebiet</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#CECCC4" night="#121212"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_LAND_CLR">
+      <TRANSLATION>Basiskarte</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#E0DDD7" night="#0F0F0F"/>
+          <SECONDARY day="#E0DDD7" night="#0F0F0F"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_MISC_AREA_CLR">
+      <TRANSLATION>Industriegebiete Flughafen Hafen Krankenhaus</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#D3D1C9" night="#1F1F1F"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_MISC_RESTR_CLR">
+      <TRANSLATION>sonstige Verbotszonen</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#1f1f1f" night="#FFFFFF"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_MISC_OBSTR_CLR">
+      <TRANSLATION>sonstige Sperrungen</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#1f1f1f" night="#FFFFFF"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_MISC_WATER_AREA_CLR">
+      <TRANSLATION>sonstige Gewässer</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#7E9CBC" night="#0E2F3D"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_PARK_CLR">
+      <TRANSLATION>Parks Golfplätze Sportplätze usw</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#B4D8B4" night="#06291C"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_RWY_HSRFC_CLR">
+      <TRANSLATION>Runway Rollbahnen</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#C0C0C0" night="#494949"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_URBAN_LAND_CLR">
+      <TRANSLATION>Stadtgebiet</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#C9C6C1" night="#17171A"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_WATER_CLR">
+      <TRANSLATION>Seen Flüsse Meer</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#7E9CBC" night="#0E2F3D"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_WETLAND_CLR">
+      <TRANSLATION>Sumpfgebiet</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#A6CCBA" night="#06291C"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_WOODS_CLR">
+      <TRANSLATION>Wald</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#A3C1A3" night="#121F09"/>
+        </COLOR>
+      </STYLE>
+
+	         <STYLE field="MAP_TRANSPORTATION_LINE_CLR" scale="0.1">
+      <TRANSLATION>Verkehrswege</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#AAADAF" night="#353535"/>
+          <SECONDARY day="#AAADAF" night="#353535"/>
+        </COLOR>
+      </STYLE>
+	  
+      <STYLE field="MAP_CNTR_MJR_CLR" scale="1" border="1">
+      <TRANSLATION>Höhenlinie breit</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#000000" night="#1f1f1f"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_CNTR_INT_CLR" scale="1" border="1">
+      <TRANSLATION>Höhenlinie mittel</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#000000" night="#1f1f1f"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_CNTR_MNR_CLR" scale="1" border="1">
+      <TRANSLATION>Höhenlinie schmal</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#1f1f1f" night="#C0C0C0"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_DPTH_CNTR_MJR_CLR" scale="1" border="1">
+      <TRANSLATION>Tiefenlinie breit</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#000000" night="#1f1f1f"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_DPTH_CNTR_INT_CLR" scale="1" border="1">
+      <TRANSLATION>Tiefenlinie mittel</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#000000" night="#1f1f1f"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_DPTH_CNTR_MNR_CLR" scale="1" border="1">
+      <TRANSLATION>Tiefenlinie schmal</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#1f1f1f" night="#C0C0C0"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_GRID_LINE_CLR" scale="1" border="1">
+      <TRANSLATION>Rasterlinien</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#C0C0C0" night="#1f1f1f"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_MISC_LINE_CLR" scale="1" border="1">
+      <TRANSLATION>Tunnel Industrie</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#1f1f1f" night="#C0C0C0"/>
+          <SECONDARY day="#FFFFFF" night="#000000"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_MISC_WATER_LINE_CLR">
+      <TRANSLATION>Fähre Meeresgrenze Marimna</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#4b84a0" night="#335d7c"/>
+          <SECONDARY day="#4b84a0" night="#335d7c"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_PLTCL_INTL_CLR" scale="0.5">
+      <TRANSLATION>Staatsgrenze</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#000000" night="#FFFFFF"/>
+          <SECONDARY day="#000000" night="#FFFFFF"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_PLTCL_MJR_CLR" scale="0.2">
+      <TRANSLATION>Landesgrenze</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#000000" night="#FFFFFF"/>
+          <SECONDARY day="#000000" night="#FFFFFF"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_PLTCL_MNR_CLR" scale="0.1">
+      <TRANSLATION>Kreisgrenze</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#000000" night="#FFFFFF"/>
+          <SECONDARY day="#000000" night="#FFFFFF"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_ROAD_ALLY_CLR" scale="0.15">
+      <TRANSLATION>Gemeindestraße</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#A1A1A1" night="#515151"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_ROAD_ARTERIAL_CLR" scale="0.6">
+      <TRANSLATION>Fernstraße</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#FF7F0B" night="#A0A0A0"/>
+          <SECONDARY day="#7C4D01" night="#915F00"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_ROAD_COLLECTOR_CLR" scale="0.75" border="1.5">
+      <TRANSLATION>Kreisstraße Kreisverkehr</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#FFFFFF" night="#6C768E"/>
+          <SECONDARY day="#141414" night="#6C768E"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_ROAD_DIM_CLR" scale="0.5" border="1">
+      <TRANSLATION>untergeordnete Straße</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#E8E8E8" night="#6C768E"/>
+          <SECONDARY day="#141414" night="#6C768E"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_ROAD_INTERSTATE_CLR" scale="1.2" border="1.4">
+      <TRANSLATION>Autobahn</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#0c64c4 " night="#165194"/>
+          <SECONDARY day="#dfe9f5" night="#165194"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_ROAD_SS_INTERSTATE_CLR" scale="1.2">
+      <TRANSLATION>Autobahn (USA)</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#90bae8 " night="#6e91b8"/>
+          <SECONDARY day="#57799e" night="#4c6887"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_ROAD_HWY_MJR_CLR" scale="1.1" border="1">
+      <TRANSLATION>Bundesstraße</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#FEDE00" night="#DEC200"/>
+          <SECONDARY day="#141414" night="#141414"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_ROAD_HWY_MNR_CLR" scale="0.9">
+      <TRANSLATION>Landesstraße</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#FEDE00" night="#DEC200"/>
+          <SECONDARY day="#141414" night="#141414"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_ROAD_RAILRD_CLR" scale="1" border="1">
+      <TRANSLATION>Eisenbahn</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#AAADAF" night="#353535"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_ROAD_RESIDENTIAL_CLR" scale="0.3">
+      <TRANSLATION>Wohngebietsstraße Waldweg Forstweg Anliegerverkehr</TRANSLATION>
+		<COLOR>	  
+          <PRIMARY day="#7D7D7D" night="#646464"/>
+          <SECONDARY day="#5A5A5A" night="#575757"/>
+        </COLOR>
+      </STYLE>
+
+	  <STYLE field="MAP_ROAD_RAMP_CLR" scale="0.8" border="1">
+      <TRANSLATION>Autobahnzubringer</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#a9cdde" night="#679eb8"/>
+          <SECONDARY day="#57799e" night="#57799e"/>
+        </COLOR>
+      </STYLE>
+	  
+      <STYLE field="MAP_ROAD_TRAIL_CLR" scale="0.15">
+      <TRANSLATION>Pfad Fußgängerweg</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#A09687" night="#564637"/>
+          <SECONDARY day="#A09687" night="#564637"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_ROAD_UNPAVED_CLR" scale="0.15">
+      <TRANSLATION>unbefestigte Straße</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#e0a100" night="#a87300"/>
+          <SECONDARY day="#adadac" night="#adadac"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_RTE_ACTV_LEG_CLR" scale="0.7" border="0.50">
+      <TRANSLATION>aktive Route</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#ed64cd" night="#ad5599"/>
+          <SECONDARY day="#cc009c" night="#cc009c"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_RTE_ARRW_CLR" scale="1">
+      <TRANSLATION>Abbiegepfeil</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#FFFFFF" night="#FFFFFF"/>
+          <SECONDARY day="#000000" night="#000000"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_RTE_GPI_EMB_CLR" scale="0.5" border="1">
+      <TRANSLATION>geplante Route</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#7209bd" night="#fab9f7"/>
+          <SECONDARY day="#fab9f7" night="#7209bd"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_RTE_INACTV_LEG_CLR" scale="0.6" border="1">
+      <TRANSLATION>noch inaktiver Routenteil</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#d48aa1" night="#a35a71"/>
+          <SECONDARY day="#d48aa1" night="#d48aa1"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_TRK_CLR" scale="0.9" border="1">
+      <TRANSLATION>Track</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#f96750" night="#f96750"/>
+          <SECONDARY day="#0A92E2" night="#0A92E2"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_TRK_SAVED_CLR" scale="1" border="0.5">
+      <TRANSLATION>gespeicherter Track</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#f96750" night="#f96750"/>
+          <SECONDARY day="#fa907f" night="#fa907f"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_LEGEND_CLR" scale="1" border="1">
+      <TRANSLATION>Legende</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#525052" night="#FFFFFF"/>
+          <SECONDARY day="#F0F0D2" night="#000020"/>
+        </COLOR>
+      </STYLE>
+
+      <STYLE field="MAP_SCALE_LINE_CLR" scale="1" border="1">
+      <TRANSLATION>Maßstab</TRANSLATION>
+        <COLOR>
+          <PRIMARY day="#000000" night="#FFFFFF"/>
+          <SECONDARY day="#F0F0D2" night="#000020"/>
+        </COLOR>
+      </STYLE>
+
+    </STYLELIST>
+
+  </PRESENTATION>
+
+</GARMIN_MAP_THEME>
